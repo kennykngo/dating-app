@@ -3,11 +3,11 @@ import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
+import Axios from "axios";
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Axios from "axios";
 
 import ProfileDashboard from "./ProfileDashboard";
 
@@ -63,7 +63,7 @@ class Profile extends React.Component {
     }).then((response) => {
       if (!response.data) return;
       let obj = response.data;
-      obj.counter = 16;
+      obj.counter = 15;
       this.setState(obj);
     });
   }
@@ -330,7 +330,7 @@ class Profile extends React.Component {
     } else if (this.state.counter === 5) {
       let options = [
         [
-          "drinks",
+          "drugs",
           "How often do you do drugs?",
           ["often", "sometimes", "never"],
         ],
@@ -823,7 +823,7 @@ class Profile extends React.Component {
     }
     return (
       <div className="profile">
-        {this.state.counter === 16 ? (
+        {this.state.counter === 15 ? (
           <ProfileDashboard
             first_name={this.state.first_name}
             last_name={this.state.last_name}
