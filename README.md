@@ -10,7 +10,7 @@ An application that matches you and your potential partner based on a complex ma
 
 ## Installation
 
-Use the node package manage (npm) [npm](https://www.npmjs.com/)
+Use the node package manager (npm) [npm](https://www.npmjs.com/)
 
 ```
 npm install
