@@ -6,7 +6,7 @@ The Dating Application for Introverts.
 
 ## Description
 
-An application that matches you and your potential partner based on a complex matching algorithm. A higher 'Love Factor' will result in a better match with your partner, whether that be location, food preference, or simply if they like cats or dogs. There are currently 2,200+ profiles created (most of them aren't real).
+An application that matches you and your potential partner based on a complex matching algorithm. A higher 'Love Factor' will result in a better match with your partner, whether that be location, food preference, or simply if they like cats or dogs. There are currently 2,22,000+ profiles created (most of them aren't real).
 
 ## Installation
 
